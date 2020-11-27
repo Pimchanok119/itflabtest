@@ -1,10 +1,10 @@
 <?php
 
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'moopimisallaround.mysql.database.azure.com', 'moopim@moopimisallaround', 'PPNuro26', 'itflab', 3306);
+mysqli_real_connect($conn, 'moopimisallaround.mysql.database.azure.com', 'moopim@moopimisallaround' , 'PPNuro26', 'itflab', 3306);
 if (mysqli_connect_errno($conn))
 {
-    die('Failed to connect to MySQL PLEASE TRY AGAIN!: '.mysqli_connect_error());
+    die('Failed to connect to MySQL PLEASE TRY AGAIN: '.mysqli_connect_error());
 }
 
 $id = $_GET['id'];
@@ -20,4 +20,3 @@ if (mysqli_query($conn, $sql)) {
   
 mysqli_close($conn);
 ?>
-
