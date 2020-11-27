@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>How are you today</title>
+<title>˗ˏˋITF LABˎˊ˗</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -21,7 +21,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 
 <div class="container">
     <div class="form">
-        <p class="ex1"><h1><center>How are you today</center></h1></p>
+        <p class="ex1"><h1><center>DePaRtMeNt StOrE=͟͟͞͞♡</center></h1></p>
     </div>
   <table width="1200" border="1" class="table table-dark table-hover table-striped" class="center" >
     <thead class="thead-dark">
