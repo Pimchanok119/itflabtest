@@ -30,7 +30,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <th width="500"> <div align="center">ราคาต่อหน่วย</div></th>
       <th width="500"> <div align="center">จำนวน</div></th>
       <th width="500"> <div align="center">ราคาทั้งหมด</div></th>
-      <th width="200"> <div align="center">Action</div></th>
+      <th width="200"> <div align="center">การจัดการ</div></th>
     </tr>
      </thead>
   <?php
@@ -43,8 +43,8 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td><center><?php echo $Result['Price'];?></center></td>
       <td><center><?php echo $Result['Amount'];?></center></td>
       <td><center><?php echo $Result['Total'];?></center></td>
-       <td><?php echo '<a href="delete.php?id='.$Result['ID'].'">
-        Delete</a>'?></td>
+      <td><?php echo '<a href="delete.php?id='.$Result['ID'].'">
+      Delete</a>'?></td>
     </tr>
   <?php
   }
