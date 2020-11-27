@@ -44,6 +44,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td><center><?php echo $Result['Price'];?></center></td>  
       <td><center><?php echo $Result['Amount'];?></center></td>
       <td><center><?php echo $Result['Total'];?></center></td>
+      <td><center><a href="formdelete.html"><input type="submit" value="Delete"  class="btn-default"></a></center></td>
     </tr>                     
   <?php
   }
