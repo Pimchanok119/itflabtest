@@ -43,7 +43,8 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td><center><?php echo $Result['Price'];?></center></td>
       <td><center><?php echo $Result['Amount'];?></center></td>
       <td><center><?php echo $Result['Total'];?></center></td>
-      <td><center><a href="delete.php"><input type="submit" value="Delete"  class="btn-default"></a></center></td>
+       <td><?php echo '<a href="delete.php?id='.$Result['ID'].'">
+        Delete</a>'?></td>
     </tr>
   <?php
   }
